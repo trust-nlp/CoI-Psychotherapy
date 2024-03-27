@@ -1,4 +1,8 @@
 # CoI-Psychotherapy
+
+This is the official implementation of the IEEE ICHI 2024 paper: 
+**Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts**
+
 ## Dependence Installation
 
 ```bash
@@ -12,7 +16,7 @@ pip install -r requirements.txt
 
 Please refer to [data/README.md](https://github.com/hiyouga/LLaMA-Factory/blob/main/data/README.md) for building your own dataset.
 
-And modify the data path in [src/llmtuner/eval/MMCBevaluator.py](https://github.com/trust-nlp/CoI-Psychotherapy/blob/main/src/llmtuner/eval/MMCBevaluator.py)
+And modify your dataset path in [src/llmtuner/eval/MMCBevaluator.py](https://github.com/trust-nlp/CoI-Psychotherapy/blob/main/src/llmtuner/eval/MMCBevaluator.py).
 
 ## Evaluate frozen LLMs
 
@@ -25,6 +29,19 @@ CUDA_VISIBLE_DEVICES=0 python src/evaluate.py \
     --lang [Prompting method] \
     --n_shot 0 \
     --batch_size 4
+```
+## Citation
+If this work is helpful, please kindly cite as:
+
+```bash
+@misc{han2024chainofinteraction,
+      title={Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts}, 
+      author={Guangzeng Han and Weisi Liu and Xiaolei Huang and Brian Borsari},
+      year={2024},
+      eprint={2403.13786},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Acknowledgements
