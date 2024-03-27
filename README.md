@@ -1,6 +1,7 @@
 # CoI-Psychotherapy
 
 This is the official implementation of the IEEE ICHI 2024 paper: 
+
 **Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts**
 
 ## Dependence Installation
