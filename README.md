@@ -35,13 +35,15 @@ CUDA_VISIBLE_DEVICES=0 python src/evaluate.py \
 If this work is helpful, please kindly cite as:
 
 ```bash
-@misc{han2024chainofinteraction,
+@article{han2024chainofinteraction,
       title={Chain-of-Interaction: Enhancing Large Language Models for Psychiatric Behavior Understanding by Dyadic Contexts}, 
       author={Guangzeng Han and Weisi Liu and Xiaolei Huang and Brian Borsari},
+      journal={arXiv preprint arXiv:2403.13786},
       year={2024},
       eprint={2403.13786},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2403.13786}
 }
 ```
 
